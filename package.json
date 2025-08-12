@@ -10,15 +10,22 @@
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.55.0",
+    "arg": "^5.0.2",
+    "bullmq": "^5.56.10",
+    "ioredis": "^5.7.0",
     "next": "15.4.6",
+    "next-swagger-doc": "^0.4.1",
     "radix-ui": "^1.4.2",
     "react": "19.1.0",
     "react-dom": "19.1.0",
+    "swagger-ui-react": "^5.27.1",
+    "ts-node": "^10.9.2",
     "zustand": "^5.0.7"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",
     "@tailwindcss/postcss": "^4",
+    "@types/ioredis": "^5.0.0",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
