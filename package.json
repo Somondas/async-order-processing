@@ -6,7 +6,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "build:worker": "tsc -p tsconfig.worker.json",
+    "worker": "yarn build:worker && node dist-worker/orderWorker.js"
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.55.0",
@@ -32,6 +34,6 @@
     "eslint": "^9",
     "eslint-config-next": "15.4.6",
     "tailwindcss": "^4",
-    "typescript": "^5"
+    "typescript": "^5.9.2"
   }
 }
